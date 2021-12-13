@@ -1,0 +1,26 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Acerca de{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about-bg1.jpg' %}{% endblock %}
+
+{% block headers %}
+    <h1>Gestión de Procesos</h1>
+    <span class="subheading"></span>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+      <div class="row">   
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">Definición</h2>   
+          <p>Un proceso es un entorno formado por todos los recursos necesarios para ejecutar programas.Para garantizar la ejecución segura de cualquier programa, los Sistemas Operativos modernos implementan un concepto: proceso.</p>
+          <p>Los Sistemas Operativos definen un grupo bastante grande de parámetros para describir el estado de parámetros o contexto de un proceso y pueden incluir el tiempo de ejecución, permisos a nivel de procesos o de usuarios, ficheros asignados,etc.</p>
+          <p>Para poder realizar esta alternancia de programas o conmutación de tareas, es imprescindible identificar y preservar el contexto de un proceso, de modo que la ejecución pueda continuar sin problemas cada vez que se retome el código de cada proceso.</p>
+        </div>
+      </div>  
+    </div>
+{% endblock %}
