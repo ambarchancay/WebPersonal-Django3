@@ -1,2 +1,3 @@
-Proyecto de la Asignatura Desarrollo De Sistemas de Información WebPersonal
+
 # WebPersonal-Django3
+Proyecto de la Asignatura de Desarrollo de  Sistemas de Información  WebPersonal
